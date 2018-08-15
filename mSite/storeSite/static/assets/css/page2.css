@@ -1,0 +1,189 @@
+@import 'fonts.css';
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../image/back2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.msite2-logo {
+    margin: 8vh auto 0 auto;
+    text-align: center;
+}
+.msite2-main-content {
+    margin: 5vh auto 1vh auto;
+    width: 550px;
+    border-radius: 25px;
+    background-color: black;
+    height: 600px;
+    background-image: url(../image/back2_blur2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+    padding: 45px 0 5px 0;
+}
+.msite2-col-4 {
+    float: left;
+    width: 45%;
+    background-color: #f6f6f6;
+    height: 300px;
+}
+.msite2-col-3 {
+    float: left;
+    width: 25%;
+    background-color: #f6f6f6;
+    height: 300px;
+}
+.msite2-col-2 {
+    float: left;
+    width: 30%;
+    background-color: #f6f6f6;
+    height: 300px;
+}
+#img3,
+#img4,
+#img5 {}
+#img3 {
+    margin: 0 0px 0 5px;
+    border-left: 1px solid gray;
+}
+#img4 {
+    /*    margin: 0 0 5px 0;*/
+}
+#img5 {}
+.msite2-col-3 > .msite2-brand-text {
+    background: #DD868E;
+    float: right;
+    color: white;
+    font-family: raleway;
+    padding: 3px 8px;
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+}
+.msite2-col-3 > .msite2-des-text {
+    position: relative;
+    float: left;
+    text-align: right;
+    top: 78%;
+    font-family: raleway;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+}
+.msite2-col-3 > .msite2-line {
+    width: 85%;
+    float: right;
+    height: 1px;
+    background: #9E9E9E;
+    position: relative;
+    top: 80.5%;
+}
+.msite2-details {
+    width: 96%;
+    text-align: center;
+    margin: 0px auto;
+    font-family: raleway;
+    padding: 2% 2% 0.5% 2%;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.41);
+}
+.msite2-details > .msite2-dtls-text {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.71);
+    margin: 0 0 20px 0;
+}
+.msite2-form-col {
+    width: 100%;
+}
+.msite2-dtls-form {
+    margin: 0 auto;
+    text-align: center;
+}
+.msite2-dtls-form {}
+.msite2-formgroup {}
+.msite2-input {
+    font-family: raleway;
+    font-size: 12px;
+    margin: 1px 0 1px 10px;
+    border: 0px solid;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid gray;
+    padding: 3px;
+}
+.msite2-formgroup > label {
+    border-right: 1px solid #c3c3c3;
+    padding: 8px 10px;
+    font-size: 12px;
+    text-align: right;
+}
+table.msite2-table {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+table.msite2-table > tbody > tr {
+    border: 0px solid black;
+}
+table.msite2-table > tbody > tr > td {
+    width: 50%;
+}
+table.msite2-table > tbody > tr > td:first-child {
+    border-right: 1px solid #c3c3c3;
+    padding: 3px 10px;
+    font-size: 12px;
+    text-align: right;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+table.msite2-table > tbody > tr > td:last-child {
+    text-align: left;
+}
+.msite2-button-sec {
+    margin: 15px;
+}
+.msite2-button-sec > .msite2-but {
+    padding: 5px 15px;
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 15px;
+    font-size: 13px;
+    font-family: raleway;
+    cursor: pointer;
+    color: black;
+    outline: none;
+    width: 75px;
+}
+.msite2-button-sec > .msite2-but:hover {
+    border: 1px solid #245bbd;
+    color: #245bbd;
+}
+.msite2-button-sec > .msite2-but:active {
+    border: 1px solid #fd2673;
+    color: #fd2673;
+}
+.msite2-footer {
+    text-align: center;
+    margin: 0 auto;
+}
+.msite2-textfooter {
+    font-size: 10px;
+    font-family: raleway;
+    margin: 0 0 20px 0;
+}
+.msite2-textfooter > span {
+    font-weight: 700;
+    font-style: italic;
+}
+.msite2-footer > img {
+    margin: 5px 0 0 0;
+}

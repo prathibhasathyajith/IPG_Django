@@ -1,0 +1,36 @@
+<html>
+    <head>
+        {% load staticfiles %}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="{% static 'assets/css/page1.css' %}" rel="stylesheet" />
+        <link href="{% static 'assets/css/responsive_page1.css' %}" rel="stylesheet" />
+        <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+    </head>
+    <body>
+        <div class="msite-logo">
+            <img src="{% static 'assets/image/site/nike-logo.png' %}" width="70" height="auto" alt="nike logo" />
+        </div>
+        <div class="msite-main-content">
+            <div class="msite-text1">Select the brand</div>
+            <div class="msite-col-5">
+                <img src="{% static 'assets/image/site/shoe1.jpg' %}" alt="shoe1" width="80%" height="auto" id="img1" />
+            </div>
+            <div class="msite-colleft" id="brandname1"><span>NIKE</span> Brand 1</div>
+            <div class="msite-col-1"></div>
+            <div class="msite-col-5">
+                <img src="{% static 'assets/image/site/shoe2.jpg' %}" alt="shoe1" width="80%" height="auto" id="img2" />
+            </div>
+            <div class="msite-colleft" id="brandname2"><span>NIKE</span> Brand 1</div>
+            <div class="msite-colright"><span>NIKE</span> Brand 2</div>
+
+            <div class="msite-footer">
+                <img src="{% static 'assets/image/site/Nike-logo-orange.png' %}" alt="nikelogo" width="50" height="auto" />
+                <div class="msite-textfooter"><span>NIKE</span> enterprises</div>
+            </div>
+        </div>
+
+        <script src="{% static 'assets/js/main.js' %}" type="text/javascript"></script>
+
+    </body>
+
+</html>

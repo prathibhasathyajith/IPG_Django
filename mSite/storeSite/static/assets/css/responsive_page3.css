@@ -1,0 +1,28 @@
+@media only screen and (max-width:600px) {
+    .msite3-main-content {
+        width: 90%;
+        height: auto;
+    }
+    .msite3-col-3 {
+        float: none;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .msite3-visa {
+        transition: 0.3s;
+        border-bottom: 3px solid transparent;
+        border-right: 0px solid gray;
+        border-left: 0px solid gray;
+    }
+    .msite3-master,
+    .msite3-amex {
+        transition: 0.3s;
+        border-bottom: 3px solid transparent;
+    }
+    .msite3-text {
+        padding: 25px 10px 35px 10px;
+    }
+    .msite3-triangle {
+        display: none;
+    }
+}

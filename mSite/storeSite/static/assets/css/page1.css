@@ -1,0 +1,112 @@
+@import 'fonts.css';
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../image/back2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.msite-logo {
+    margin: 12vh auto 0 auto;
+    text-align: center;
+}
+.msite-main-content {
+    margin: 5vh auto 6vh auto;
+    width: 550px;
+    border-radius: 25px;
+    background-color: black;
+    height: auto;
+    background-image: url(../image/back2_blur.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+    padding: 20px 0 5px 0;
+}
+.msite-text1 {
+    text-align: center;
+    font-family: raleway;
+    font-size: 11px;
+    padding: 50px 0 1px 0;
+}
+.msite-col-5 {
+    float: left;
+    width: 49%;
+    background-color: #f6f6f6;
+    height: auto;
+}
+.msite-col-5 > #img1 {
+    float: right;
+}
+#img1,
+#img2 {
+    cursor: pointer;
+    transition: 0.3s;
+}
+#img1:hover {
+    transition: 0.3s;
+    margin-right: 20px;
+}
+#img2:hover {
+    transition: 0.3s;
+    margin-left: 20px;
+}
+#brandname1 {
+    display: none;
+}
+#brandname2 {
+    display: block;
+}
+.msite-col-1 {
+    width: 1px;
+    background-color: #c1c1c1;
+    height: 175.59px;
+    float: left;
+    border-top: 20px solid #f6f6f6;
+    border-bottom: 20px solid #f6f6f6;
+    border-left: 5px solid #f6f6f6;
+    border-right: 5px solid #f6f6f6;
+}
+.msite-colleft {
+    font-family: raleway;
+    font-size: 10px;
+    float: left;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin: -25px 0 0 0;
+}
+.msite-colleft > span,
+.msite-colright > span {
+    font-weight: 700;
+    font-style: italic;
+}
+.msite-colright {
+    font-family: raleway;
+    font-size: 10px;
+    float: right;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin: -25px 0 0 0;
+}
+.msite-footer {
+    text-align: center;
+    margin: 0 auto;
+}
+.msite-textfooter {
+    font-size: 10px;
+    font-family: raleway;
+}
+.msite-textfooter > span {
+    font-weight: 700;
+    font-style: italic;
+}
+.msite-footer > img {
+    margin: 45px 0 0 0;
+}

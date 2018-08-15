@@ -1,0 +1,107 @@
+@import 'fonts.css';
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../image/back2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.msite3-logo {
+    margin: 12vh auto 0 auto;
+    text-align: center;
+}
+.msite3-main-content {
+    margin: 5vh auto 4vh auto;
+    width: 550px;
+    border-radius: 25px;
+    background-color: black;
+    height: 300px;
+    background-image: url(../image/back2_blur2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+    padding: 20px 0 5px 0;
+}
+.msite3-footer {
+    text-align: center;
+    margin: 0 auto;
+}
+.msite3-textfooter {
+    font-size: 10px;
+    font-family: raleway;
+}
+.msite3-textfooter > span {
+    font-weight: 700;
+    font-style: italic;
+}
+.msite3-footer > img {
+    margin: 0;
+}
+.msite3-text {
+    font-family: raleway;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 100;
+    padding: 25px 0 35px 0;
+}
+.msite3-ca {}
+.msite3-col-3 {
+    float: left;
+    width: 33.3333%;
+}
+.msite3-master {
+    text-align: center;
+    cursor: pointer;
+}
+.msite3-visa {
+    text-align: center;
+    cursor: pointer;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+.msite3-amex {
+    text-align: center;
+    cursor: pointer;
+}
+.msite3-triangle {
+    margin: 0 auto;
+    text-align: center;
+    transition: 0.2s cubic-bezier(.83, .01, .02, 1.03);
+}
+.msite3-pos1 {
+    transition: 0.2s cubic-bezier(.83, .01, .02, 1.03);
+}
+.msite3-triangle > .msite3-pos1 {
+    width: 100%;
+/*    width: 33.333%;*/
+}
+.msite3-button-sec {
+    margin: 40px auto;
+    text-align: center;
+}
+.msite3-button-sec > .msite3-but {
+    padding: 5px 12px;
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 15px;
+    font-size: 13px;
+    font-family: raleway;
+    cursor: pointer;
+    color: black;
+    outline: none;
+    width: 75px;
+}
+.msite3-button-sec > .msite3-but:hover {
+    border: 1px solid #245bbd;
+    color: #245bbd;
+}
+.msite3-button-sec > .msite3-but:active {
+    border: 1px solid #fd2673;
+    color: #fd2673;
+}

@@ -1,0 +1,68 @@
+
+<html>
+
+    <head>
+        {% load staticfiles %}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="{% static 'assets/css/page3.css' %}" rel="stylesheet" />
+        <link href="{% static 'assets/css/responsive_page3.css' %}" rel="stylesheet" />
+        <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+    </head>
+
+    <body>
+        <div class="msite3-logo">
+            <img src="{% static 'assets/image/site/nike-logo.png' %}" width="70" height="auto" alt="nike logo" />
+        </div>
+        <div class="msite3-main-content">
+            <form class="wufoo"  name="merchantForm" action="{{urlipg}}" method="POST"  >
+                {% csrf_token%}
+                <div class="msite3-text">Select your credit card type</div>
+                <div class="msite3-ca">
+
+                    <div class="msite3-col-3">
+                        <div class="msite3-master">
+                            <input style="display: none" id="master_radio" type="radio" name="radio" class="styled" value="MASTER" />
+                            <img src="{% static 'assets/image/cc/mastercard.svg' %}" width="100" height="auto" alt="master" />
+                        </div>
+                    </div>
+                    <div class="msite3-col-3">
+                        <div class="msite3-visa">
+                            <input style="display: none" checked="true"  type="radio" id="visa_radio" name="radio" class="styled" value="VISA" />
+                            <img src="{% static 'assets/image/cc/visa%20(1).svg' %}" width="100" height="auto" alt="master" />
+                        </div>
+                    </div>
+                    <div class="msite3-col-3">
+                        <div class="msite3-amex">
+                            <input style="display: none" type="radio" id="amex_radio" name="radio" class="styled" value="AMEX" />
+                            <img src="{% static 'assets/image/cc/american-express.svg' %}" width="100" height="auto" alt="master" />
+                        </div>
+                    </div>
+                </div>
+                <div class="msite3-triangle">
+                    <div class="msite3-pos1">
+                        <img src="{% static 'assets/image/site/triangle.svg' %}" width="20" height="auto" />
+                    </div>
+                </div>
+
+                {{generatehiddeninputs}}
+
+
+                <div class="msite3-button-sec">
+                    <input type="button" class="msite3-but" value="Back" id="msite3-back"/>
+                    <input type="submit" value="Proceed" class="msite3-but"/>
+                    <!--<input type="button" class="msite3-but" value="Submit" id="msite3-submit"/>-->
+                </div>
+
+            </form>
+
+        </div>
+        <div class="msite3-footer">
+            <img src="{% static 'assets/image/site/Nike-logo-orange.png' %}" alt="nikelogo" width="50" height="auto" />
+            <div class="msite3-textfooter"><span>NIKE</span> enterprises</div>
+        </div>
+
+        <script src="{% static 'assets/js/main.js' %}" type="text/javascript"></script>
+
+    </body>
+
+</html>

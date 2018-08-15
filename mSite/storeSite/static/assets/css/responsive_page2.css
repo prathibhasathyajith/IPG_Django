@@ -1,0 +1,76 @@
+@media only screen and (max-width: 600px) {
+    .msite2-main-content {
+        width: 90%;
+        height: auto;
+    }
+    .msite2-col-3 {
+        width: 100%;
+        float: none;
+        height: 100px;
+    }
+    .msite2-col-4 {
+        width: 100%;
+        float: none;
+        height: auto;
+    }
+    .msite2-col-2 {
+        width: 100%;
+        float: none;
+        height: auto;
+    }
+    .msite2-details {
+        float: none;
+        height: auto;
+    }
+    .msite2-col-4 > #img3 {
+        height: auto;
+        width: 90%
+    }
+    #img3 {
+        margin: 0;
+        border-left: 0px solid gray;
+        border-bottom: 1px solid gray;
+    }
+    #img4 {
+        float: left;
+    }
+    .msite2-col-2 > #img4,
+    .msite2-col-2 > #img5 {
+        height: auto;
+        width: 50%
+    }
+    .msite2-col-3 > .msite2-des-text {
+        float: right;
+        font-size: 24px;
+        margin: 0 10px 0 0;
+    }
+    .msite2-details > .msite2-dtls-text {
+        font-size: 22px;
+        font-weight: 900;
+    }
+    table.msite2-table > tbody > tr > td:first-child {
+        border-right: 1px solid #c3c3c3;
+        padding: 10px 10px;
+        font-size: 15px;
+        text-align: right;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    table.msite2-table > tbody > tr > td {
+        width: 35%;
+    }
+    .msite2-input {
+        font-size: 15px;
+    }
+    .msite2-col-3 > .msite2-brand-text {
+        font-size: 45px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .msite2-input {
+        width: 90%;
+    }
+    .table.msite2-table > tbody > tr > td:last-child {
+        width: 100%;
+    }
+}
