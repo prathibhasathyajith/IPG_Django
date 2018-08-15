@@ -192,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -265,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.manager">
+  <component name="RunManager" selected="Python.crypto">
     <configuration name="crypto" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="IPG" />
       <option name="INTERPRETER_OPTIONS" value="" />
