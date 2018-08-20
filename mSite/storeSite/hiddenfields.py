@@ -1,7 +1,7 @@
 import os
 
 
-class xAllfields():
+class Allfields():
 
     def getmid(self):
         files = os.listdir('storeSite/static/keyfile/');
