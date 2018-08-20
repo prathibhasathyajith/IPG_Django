@@ -2,6 +2,8 @@ from __future__ import unicode_literals
 from django.http import HttpResponse
 from django.shortcuts import render
 from . forms import generateHiddenFiles
+from . hiddenfields import Allfields
+from random import *
 
 def index(request):
 
@@ -21,8 +23,12 @@ def page1(request):
 def page2(request):
 
     form = generateHiddenFiles()
-
+    inputs = Allfields();
     context = {
+        "merchantId" : inputs.getmid(),
+        "dateofregistry" : "2018-08-20",
+        "refno" : randint(1, 1000),
+        "orderid" : randint(1, 100),
         "generatehiddeninputs": form,
         "url": "http://127.0.0.1:8000/admin",
         "urlipg": "http://localhost:7001/EPIC_IPG/IPGMerchantAddOnServlet"

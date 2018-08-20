@@ -1,7 +1,17 @@
+import os
+
+
 class Allfields():
 
     def getmid(self):
-        return '000000001000066'
+        files = os.listdir('storeSite/static/keyfile/');
+        mid = "" ;
+        for keyfile in files:
+            if keyfile.split(".")[1] == "pem":
+                mid = keyfile.split(".")[0]
+                break
+            print(keyfile)
 
-    def getamout(self):
-        return '100'
+        return mid;
+
+
