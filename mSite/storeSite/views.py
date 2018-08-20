@@ -20,7 +20,15 @@ def page1(request):
 
 def page2(request):
 
-    return render(request,"page2.html")
+    form = generateHiddenFiles()
+
+    context = {
+        "generatehiddeninputs": form,
+        "url": "http://127.0.0.1:8000/admin",
+        "urlipg": "http://localhost:7001/EPIC_IPG/IPGMerchantAddOnServlet"
+    }
+
+    return render(request,"page2.html",context)
 
 def page3(request):
 

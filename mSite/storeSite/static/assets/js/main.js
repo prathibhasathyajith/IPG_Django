@@ -9,12 +9,15 @@ $(document).ready(function (e) {
         window.history.back();
     });
     $("#msite2-submit").click(function () {
-        window.location.href = "/storeSite/3";
+       $('.msite2-main-content').hide();
+       $('.msite3-main-content').show();
+//        window.location.href = "/storeSite/3";
     });
 
     //page 3
     $("#msite3-back").click(function () {
-        window.history.back();
+        $('.msite2-main-content').show();
+        $('.msite3-main-content').hide();
     });
     $("#msite3-submit").click(function () {
         window.location.href = "";

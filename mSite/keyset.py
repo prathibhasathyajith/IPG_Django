@@ -29,7 +29,7 @@ class keyProcess():
 
         byteSignedDataString_lower = binascii.hexlify(sign)
         byteSignedDataString_byte = byteSignedDataString_lower.upper()
-        byteSignedDataString = byteSignedDataString_byte.decode("utf-8")
+        byteSignedDataString = byteSignedDataString_byte.decode(" utf-8")
 
         return str(byteSignedDataString);
 
